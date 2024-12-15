@@ -1,0 +1,35 @@
+body{
+    background-color:antiquewhite;
+}
+div{
+    border:2px solid black;
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 80%;
+    background-color:white;
+}
+.dot{
+    border-style: dashed;
+}
+#red{
+    border-color: red;
+}
+.pur{
+    color:rgb(135, 40, 152);
+}
+.yell{
+    background-color: rgb(255, 255, 139);
+    margin-left: 3px;
+    margin-right: 3px;
+    font-weight: bold;
+    padding-left:5px;
+    padding-right: 5px;
+}
+.org{
+    background-color: rgb(255, 195, 139);
+    margin-left: 3px;
+    margin-right: 3px;
+    font-weight: bold;
+    padding-left:5px;
+    padding-right: 5px;
+}
