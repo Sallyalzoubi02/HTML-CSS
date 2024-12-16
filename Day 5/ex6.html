@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid{
+            display: grid;
+            grid-template-columns: 25% 25% 25%;
+        }
+        p{
+            font-size: 30px;
+        }
+        h1,p{
+            margin: 6px;
+        }
+        .card{
+            border:1px solid black;
+            border-radius: 5px;
+            width: 90%;
+            height: 600px;
+            display: inline-block;
+            margin: 10px;
+            box-shadow: 3px 2px rgba(0, 0, 0, 0.1);
+            top:0;
+            position: relative;
+        }
+        img{
+            width: 100%;
+        }
+        .fot{
+            width: 100%;
+            height: 50px;
+            position: absolute;
+            top:92%;
+            background-color: rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="grid">
+        <div class="card">
+            <h1>A Short heading</h1>
+            <img src="https://modo3.com/thumbs/fit630x300/265875/1664263823/%D8%A3%D9%81%D8%B6%D9%84_%D9%88%D8%AC%D9%87%D8%A7%D8%AA_%D8%B1%D9%83%D9%88%D8%A8_%D8%A7%D9%84%D9%85%D9%86%D8%B7%D8%A7%D8%AF_%D9%81%D9%8A_%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85.jpg">
+            <p>The idea of reaching the North Pole by means of Balloons appear to have been entertained many years ago</p>
+        </div>
+        <div class="card">
+            <h1>A Short heading</h1>
+            <img src="https://modo3.com/thumbs/fit630x300/265875/1664263823/%D8%A3%D9%81%D8%B6%D9%84_%D9%88%D8%AC%D9%87%D8%A7%D8%AA_%D8%B1%D9%83%D9%88%D8%A8_%D8%A7%D9%84%D9%85%D9%86%D8%B7%D8%A7%D8%AF_%D9%81%D9%8A_%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85.jpg">
+            <p>short content</p>
+            <div class="fot"><p>ihave a footer!</p></div>
+        </div>
+        <div class="card">
+            <h1>A longer heading in this card</h1>
+            <img src="https://modo3.com/thumbs/fit630x300/265875/1664263823/%D8%A3%D9%81%D8%B6%D9%84_%D9%88%D8%AC%D9%87%D8%A7%D8%AA_%D8%B1%D9%83%D9%88%D8%A8_%D8%A7%D9%84%D9%85%D9%86%D8%B7%D8%A7%D8%AF_%D9%81%D9%8A_%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85.jpg">
+            <p>The idea of reaching the North Pole by means of Balloons appear to have been entertained many years ago idea of reaching the North Pole by means </p>
+            <div class="fot"><p>ihave a footer!</p></div>
+        </div>
+    </div>
+</body>
+</html>

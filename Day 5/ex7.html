@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            border: 2px dashed black;
+            width: max-content;
+            height: 150px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .box{
+            border: 1px solid;
+            width: 200px;
+            height: 90%;
+            display: flex;
+            justify-content:center ;
+            align-items: center;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <h3>position:static</h3>
+    <div class="container">
+        
+        <div class="box"><p>One</p></div>
+        <div class="box" style="background-color: green;"><p>Two</p></div>
+        <div class="box"><p>Three</p></div>
+        <div class="box"><p>four</p></div>
+    </div>
+    <h3>position:relative</h3>
+    <div class="container">
+        
+        <div class="box"><p>One</p></div>
+        <div class="box" style="background-color: green;position: relative; left:50px; top: 50px; "><p>Two</p></div>
+        <div class="box"><p>Three</p></div>
+        <div class="box"><p>four</p></div>
+    </div>
+    <h3>position:absolute</h3>
+    <div class="container" style="position: relative;">
+        
+        <div class="box"><p>One</p></div>
+        <div class="box" style="background-color: green;position: absolute; left:50px; top: 50px; "><p>Two</p></div>
+        <div class="box"><p>Three</p></div>
+        <div class="box"><p>four</p></div>
+    </div>
+</body>
+</html>
