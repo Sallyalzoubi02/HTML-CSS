@@ -1,0 +1,292 @@
+
+*{
+    margin: 0 ;
+    padding: 0;
+    font-family: "Poppins", serif;
+}
+@font-face {
+    font-family: "No Bills extra bold";
+    src: url(post-no-bills/postnobillscolombo-extrabold.ttf);
+}
+
+header{
+    height: 629.07px;
+    width: 100%;
+    background-color: #35736E;
+}
+.logo{
+    font-family: "No Bills extra bold";
+    color: #FFD748;
+    float: left;
+    margin-left: 32.67px;
+    margin-top: 11px;
+}
+
+.logo h1{
+    font-weight: 800;
+    line-height: 76.75px;
+    font-size: 51.33px;
+}
+.logo nav{
+    position: relative;
+
+}
+
+#active{
+    text-decoration:  underline 4.67px #FFD748;
+}
+.nav-links{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    top: 26.13px;
+    left: 706.53px;
+    justify-content: space-between;
+    gap: 30px;
+}
+.nav-links h4{
+    margin-right: 21px ;
+    font-family: "Poppins", serif;
+    font-size: 18.67px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.icon{
+    float: right;
+    margin-top: 23.33px;
+    margin-right: 65.33px;
+}
+
+.icon img{
+    width: 32.67px;
+    height: 32.67px;
+}
+.image{
+    position: relative;
+}
+
+.s1 p{
+    text-align: left;
+    font-family: "DM Serif Text", serif;
+    text-shadow: 0px 3.73px 3.73px #000000c4;
+    font-size: 51.33px;
+    font-weight: 400;
+    line-height: 70.38px;
+    position: absolute;
+    top: 221.2px;
+    left:92.4px;
+    color: white;
+}
+.dotimg{
+    position: absolute;
+    width: 242.67px;
+    height: 164.27px;
+    top: 197.87px;
+    left: 1088.27px;
+}
+
+.couchimg{
+    position:absolute;
+    width:756px;
+    height: 542.53px;
+    top: 126.93px;
+    left:561.87px;
+}
+
+.btn{
+    border-radius: 28px;
+    width: 149.33px;
+    height: 46.67px;
+    color: black;
+    position:absolute;
+    top: 429.33px;
+}
+.card1{
+    display: flex;
+    flex-direction: column;
+    width:276.27px;
+    height: 269.6px;
+    top: 83.43px;
+    border-radius: 18.67px;
+    background-color: #35736E1A;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 16.8px;
+    
+}
+.product{
+    float:right;
+    display: flex;
+    flex-direction: row;
+    gap: 45px;
+    margin: 20px 90px;
+}
+
+.contant{
+    
+    margin-bottom:50px ;
+}
+
+ .cardimg{
+    width: 176.4px;
+    height: 229.21px;
+ }
+
+ .explore{
+    width:276.27px;
+    transform: translate(-20px, 83px);
+ }
+ .explore button{
+    transform: translate(-104px, -99px);
+ }
+
+ .explore h5{
+    font-weight: 600;
+    font-size: 31.73px;
+    line-height: 47.6px;
+ }
+ #c1{
+    box-shadow:  0px 3.73px 3.73px #000000c4;;
+ }
+.dotimg2{
+    width: 505.87px;
+    height: 622.68px;
+    position: absolute;
+    right: 67px;
+    top: 31px;
+    border-radius: 9.33px;
+}
+.why{
+    width: 242.67px;
+    height: 154.56px;
+    right: 411px;
+    position: absolute;
+}
+
+.col-md{
+    font-size: 13.07px;
+    font-weight: 400;
+    line-height: 22.4px;
+    position: relative;
+}
+.col-md h5{
+    font-size: 13.07px;
+    font-weight: 600px ;
+}
+
+.circle{
+    position: absolute;
+    left: 25px;
+}
+
+ 
+.g2{
+    position: absolute;
+    width: 395.73px;
+    height: 483.88px;
+    border-radius: 9.33px;
+    top: 69px;
+    left: 201px;;
+ }
+
+.g1{
+    position: absolute;
+    width: 174.53px;
+    height: 164.22px;
+    border-radius: 9.33px;
+    left: 613.4px;
+    top: 69px;
+}
+.g3{
+    position: absolute;
+    width: 271.6px;
+    height: 306.49px;
+    border-radius: 9.33px;
+    top:267px;
+    left:547.87px;
+    transform: translateZ(30px);
+}
+.dot2{
+    position: absolute;
+    width: 242.67px;
+    height: 154.56px;
+    left:88.67px;
+}
+.padd{
+    padding: 20PX;
+}
+
+.card{
+    width: 400px;
+    height: 100px;
+    border-radius: 9.33px;
+    text-align: left;
+    position: relative;
+    border: none;
+    font-size: 13.07px;
+    
+}
+.card-body{
+    background-color: white;
+    padding-left:1px;
+    
+}
+.card-body p{
+    margin-bottom: 1.1px;
+}
+.im{
+    width:100px ;
+    height: 100px;
+    position: relative;
+    top: -25px;
+    
+}
+.cover{
+    background-color: #35736E1A;
+    width: 100px;
+    border-radius: 9.33px;
+}
+
+.col-md-1{
+    padding: 73px;
+}
+
+.col-md-1 img{
+    position: absolute;
+    top: 97px;
+    right: 40px;
+}
+
+#n1{
+    right: 61px;
+    top: 112px;
+}
+
+.user{
+    border-radius: 100px;
+    align-items: center;
+    justify-content: center;
+}
+.CEO{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.CEO h4{
+    margin-top: 10px;
+    font-size:16.8px ;
+    font-weight: 500;
+    line-height: 25.2px;
+}
+
+.CEO p{
+    font-size: 12.13px;
+    font-weight: 400;
+    line-height: 29.87px;
+}

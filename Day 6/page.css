@@ -4,7 +4,6 @@
 }
 .head{
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://www.springboard.com/blog/wp-content/uploads/2022/09/programmng-language.jpg");
-    
     width: 100%;
     height: 450px;
     background-size:cover;
@@ -39,12 +38,14 @@
 }
 
 .s1{
+    padding: 40px;
+    width: 100%;
     text-align: center;
-    margin: 20px;
-    height: 100px;
+    height: 200px;
     top:10px;
 }
 .container{
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(3 , 30%);
     justify-content: center;
@@ -89,28 +90,25 @@
 }
 
 .flex-con{
+    width: 100%;
     display: flex;
-    flex-direction: row;
+    justify-content: center;
     text-align: center;
 }
 .flexit{
     width: 50%;
     text-align: center;
-    padding: 10px;
-    padding-right: 40px;
-    padding-left: 40px;
     color: white;
     height: 300px;
     justify-content: center;
-    display: flex;
-    flex-direction: column;
-    font-size: larger
+    padding: 40px;
 }
 .link{
     margin: 30px;
-    color:blue;
+    
     text-decoration: underline;
     transition: transform .1s;
+    text-decoration: none;
 }
 .link:hover{
     transform: translate(2px,2px);
@@ -118,19 +116,21 @@
 }
 .website{
     margin: 30px;
-    color:blue;
+    color: white;
     text-decoration: underline;
     transition: transform .1s;
+    text-decoration: none;
 }
 .website:hover{
     transform: skew(10deg,2deg);
-    color:rgb(0, 225, 255);
+    color:rgb(0, 102, 255);
 }
 h3{
     margin-bottom: 40px;
     font-family: "Playwrite TZ Guides", cursive;
 }
 .footer{
+    width: 100%;
     height: 90px;
     text-align: center;
     display: flex;
