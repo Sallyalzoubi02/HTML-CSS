@@ -135,6 +135,7 @@ img{
 /*-------------------- skills -------------------*/
 .box{
     border-radius: 30px;
+    margin-bottom: 5px;
 }
 .icon i ,.contant h5{
     color: #1190cb;
