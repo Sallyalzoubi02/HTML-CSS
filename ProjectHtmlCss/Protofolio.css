@@ -7,7 +7,7 @@
     font-family: Bitter;
 }
 body{
-    background-color: rgb(173, 173, 173);
+    background-color: rgb(206, 206, 206);
     overflow-x: hidden; /* Avoid horizontal scroll issues */
 }
 /*-------------------- navbar -------------------*/
@@ -68,6 +68,10 @@ section {
     padding-top: 100px; /* Ensure content doesn't overlap with navbar */
     padding-bottom: 100px;
     min-height: 500px; /* Ensure sections have enough height for scrolling */
+    height: max-content;
+}
+.me{
+    padding-top: 200px;
 }
 .myName{
     color: #1190cb;
@@ -85,7 +89,7 @@ section {
     color: orangered;
 }
 
-img{
+.img1{
     display: block;
     max-width: 100%; /* Fix any potential stretching issues */
     margin: 30px;
@@ -103,22 +107,30 @@ img{
 }
 /*-------------------- card -------------------*/
 
-.card{
-    box-shadow: 1px 1px 10px black;
-    margin: 20px;
+.c-c{
+    border-radius: 20px;
+    box-shadow: 1px 1px 15px #1190cb74;
+    
     width: 80%;
 }
-.card-header{
+.c-h{
     height: 12rem;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.c-b{
+    background-color: #2e2e2e;
+    color: white;
+    border-radius: 0 0 20px 20px;
+}
+
 .card-img{
     width: 100%;
     filter: drop-shadow(0 0 50px black);
 }
+
 #frame {
     visibility:hidden;
     height: 0;
@@ -136,10 +148,83 @@ img{
 .box{
     border-radius: 30px;
     margin-bottom: 5px;
+    transition: transform ease-in .3s;
+    min-height: 136px;
+}
+.box:hover{
+    transform: scale(1.1);
+    border: 1px solid #1190cb;
 }
 .icon i ,.contant h5{
     color: #1190cb;
 }
+
+/*-------------------- Course ---------------------*/
+
+.c{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.c a{
+    text-decoration: none;
+}
+.course{
+    border-radius: 30px !important;
+    margin-bottom: 5px;
+    transition: transform ease-in .3s;
+    text-decoration: none !important;
+    display: flex;
+    align-items: center;
+}
+.course-con{
+    text-decoration: none !important;
+    color: white;
+}
+.course-con h5{
+    color: #1190cb;
+}
+.course-icon img{
+    width: 70%;
+}
+/*-------------------refer---------------------*/
+.c1 a{
+    text-decoration: none !important;
+}
+.card-ref{
+    border-radius: 20px;
+    box-shadow: 1px 1px 15px #1190cb74;
+    margin: 20px;
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0) !important;
+    border-radius: 40%;
+    
+}
+
+.ref-header{
+    background-color:#212524;
+    border: 0;
+    padding: 0;
+   
+}
+.ref-header img{
+    width:100%;
+    filter: none;
+    border-radius: 2% 2% 0 0;
+    
+}
+
+.ref-body{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0) !important;
+    min-height: 124.8px;
+    
+}
+
+.ref-body h5{
+    color:#1190cb;
+    
+}
+
 /*-------------------- Form ---------------------*/
 .feild{
     margin-bottom:20px;
@@ -174,7 +259,12 @@ textarea{
     margin: 5px;
     font-size: 16px;
 }
-
+.sendcont{
+    position: relative;
+    right: 25%;
+    justify-content: end;
+}
+/*-------------------- Footer ---------------------*/
 .fo i{
     color: aliceblue;
     text-shadow: 0px 0px 20px #1190cb;
@@ -186,5 +276,11 @@ textarea{
 }
 footer {
     height: max-content;
-    padding: auto;
+    padding: 20px;
 }
+.footer-img{
+    border-radius: 0;
+    filter: none;
+    width: 50%;
+}
+
