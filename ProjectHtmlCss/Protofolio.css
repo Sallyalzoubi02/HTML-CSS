@@ -174,11 +174,13 @@ section {
     transition: transform ease-in .3s;
     text-decoration: none !important;
     display: flex;
+    
     align-items: center;
 }
 .course-con{
     text-decoration: none !important;
     color: white;
+    padding: 10px;
 }
 .course-con h5{
     color: #1190cb;

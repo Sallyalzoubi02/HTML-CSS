@@ -3,6 +3,11 @@
     margin: 0 ;
     padding: 0;
     font-family: "Poppins", serif;
+    
+    
+}
+body{
+    background-color: #EFF2F1;
 }
 @font-face {
     font-family: "No Bills extra bold";
@@ -14,15 +19,18 @@ header{
     width: 100%;
     background-color: #35736E;
 }
+nav{
+    background-color: #35736E;
+}
 .logo{
-    font-family: "No Bills extra bold";
+    
     color: #FFD748;
     float: left;
     margin-left: 32.67px;
-    margin-top: 11px;
 }
 
 .logo h1{
+    font-family: "No Bills extra bold";
     font-weight: 800;
     line-height: 76.75px;
     font-size: 51.33px;
@@ -39,11 +47,15 @@ header{
     position: absolute;
     display: flex;
     flex-direction: row;
-    color: white;
+    
     top: 26.13px;
     left: 706.53px;
     justify-content: space-between;
     gap: 30px;
+}
+.nav-links a{
+    text-decoration: none !important;
+    color: white;
 }
 .nav-links h4{
     margin-right: 21px ;
@@ -55,8 +67,9 @@ header{
 
 .icon{
     float: right;
-    margin-top: 23.33px;
-    margin-right: 65.33px;
+    margin-right: 65.33px;    
+    margin-top: -26px;
+
 }
 
 .icon img{
@@ -227,10 +240,9 @@ header{
     position: relative;
     border: none;
     font-size: 13.07px;
-    
+    background-color: #EFF2F1;
 }
 .card-body{
-    background-color: white;
     padding-left:1px;
     
 }
@@ -264,11 +276,14 @@ header{
     right: 61px;
     top: 112px;
 }
-
-.user{
+.user-img
+{
+    background-image: url(../Image/user.jpg);
+    width:71.87px;
+    height:71.87px;
+    background-position:top;
+    background-size: cover;
     border-radius: 100px;
-    align-items: center;
-    justify-content: center;
 }
 .CEO{
     height: 300px;
@@ -289,4 +304,186 @@ header{
     font-size: 12.13px;
     font-weight: 400;
     line-height: 29.87px;
+}
+
+
+.rec{
+    position: absolute;
+    width: 219px;
+    height: 48px;
+    left: 145.6px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 31.7333px;
+    line-height: 48px;
+}
+
+
+.view{
+    height: 39px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14.9333px;
+    line-height: 38px;
+    text-decoration:  underline 4.67px #FFD748;
+    float: right;
+    margin-right: 150px;
+}
+
+.gap-col{
+    column-gap: 55px;
+}
+
+.p1{
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16.8px;
+    line-height: 20px;
+}
+
+.p2{
+    font-weight: 400;
+    font-size: 13.0667px;
+    line-height: 16px;
+}
+.post{
+    margin-bottom: 250px;
+
+}
+footer {
+    background-color: white !important; /* Enforce white background */
+    min-height: 100px; /* Ensure visibility */
+    margin: 0 auto; /* Center horizontally if needed */
+    padding: 100px 120px; /* Add spacing */
+}
+.flex-container{
+    display: flex;
+    width: 100%;
+}
+.flex-item{
+    width: 70%;
+}
+
+.mail{
+
+    font-size: 16.8px;
+    font-weight: 600;
+    line-height: 20.33px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+.mail::before{
+    background-color: white !important;
+    content: url(../ICON/Vector\ \(1\).png);
+    padding-right: 20px;
+    position: relative;
+    top: 4px;
+
+}
+input{
+    width: 254.53px;
+    height: 42.74px;
+    border-radius: 9.33px;
+    margin-right: 17px;
+}
+.send-btn{
+    display: inline-block;
+    width: 46.67px;
+    height: 44.52px;
+    background-color: #35736E;
+    border-radius: 9.33px ;
+    position: relative;
+    top: 15px;
+}
+
+.send-btn img{
+    position: absolute;
+    top: 11px;
+    left: 8px;
+}
+.flex-item{
+    position: relative;
+}
+.sofa{
+    width: 427.47px;
+    height: 369.82px;
+    position: absolute;
+    top: -231px;
+    left: 203px;
+}
+
+.logo2{
+    color: #35736E;
+    margin: 0 auto;
+    font-family: "No Bills extra bold";
+    font-weight: 800;
+    line-height: 76.75px;
+    font-size: 40.33px;
+}
+
+.p-f{
+    color: #6A6A6A;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: left;
+    word-spacing: 1px;
+}
+.a{
+    text-decoration: none !important;
+    color: #6A6A6A;
+    font-size: 13.07px;
+    font-weight: 400;
+    line-height: 22.4px;
+}
+
+.d-flex{
+    row-gap: 4px;
+}
+
+footer .row{
+    column-gap: 22px;
+}
+.cir{
+    background-color: #d9d9d9;
+    display: inline-block;
+    border-radius: 100%;
+    width: 38px;
+    height:38px;
+    position: relative;
+    left: -35px;
+    top: 28px;
+}
+.cir i{
+    position: absolute;
+    top:10px;
+    right: 14px;
+    
+}
+
+hr{
+    background-color: #d9d9d9;
+    margin-top: 55px !important;
+
+    display: block;
+}
+
+.m{
+    margin:5px;
+}
+
+.r2{
+    column-gap: 0px !important;
+}
+
+.copy{
+    margin-top: 100px;
+    color: #6A6A6A;
+    font-size: 13.07px;
+    font-weight: 400;
+    line-height: 22.4px;
 }
